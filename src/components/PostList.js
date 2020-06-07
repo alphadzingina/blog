@@ -6,7 +6,7 @@ class PostList extends React.Component {
     componentDidMount() {
         this.props.fetchPosts();
     }
-    
+
     render() {
         return (
             <div>Post List</div>
